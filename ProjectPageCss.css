@@ -1,0 +1,207 @@
+            html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, dl, dt, dd, 
+ol, ul, li, form, table, caption, tr, th, td, article, aside, footer, header{
+                 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+a:link    {color:black; text-decoration:none}
+a:visited {color:black; text-decoration:none;}
+a:hover   {text-decoration:none; opacity: 70%;}
+a:active  {color:black; text-decoration:none;}
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+header{
+    position: fixed;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+}
+.classForTextHeader{
+    color: whitesmoke;
+    float: left;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-size: 24px;
+}
+.classHelperForTextHeader{
+    margin-top: 0px;
+    margin-left: 843px;
+    padding: 10px;
+}
+ul.nav{
+    list-style: none;
+}
+.nav li {
+    float: left;
+}
+ul.nav a{
+    display: block;
+    width: 5em;
+    margin-top: 20px;
+    padding:10px;
+    text-decoration: none;
+    color:whitesmoke;
+    text-align: center;
+}
+main{
+    height: 2200px;
+}
+#projectWPFDesctop{
+    float: left;
+    margin-left: 20px;
+    margin-right: 250px;
+    margin-top: 150px;
+    height: 500px;
+    color: black;
+}
+#h2ForProjectWPFDesctop{
+    font-size: 20px;
+    text-align: left;
+}
+#firstParagraphProjectWPF{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: justify;
+}
+#imageProjectWorkDBAdminInterfaceScreenshot{
+    float: right;
+    box-shadow: 2px 0px 20px -2px #888;
+    border: 4px solid whitesmoke;
+    margin-top: 30px;
+    margin-right: 25px;
+    width: 675px;
+    height: 400px;
+    background-size: 100% 100%;
+    background-image: url("ProjectWorkDBAdminInterfaceScreenshot.Png");
+}
+#helpPositionTextInterfaceScreen{
+    margin-top: 15px;
+    padding-top: 10px;
+    margin-left: 550px;
+    width: 675px;
+    text-align: center;}
+#secondParagraphProjectWPF{
+    float: left;
+    width: 470px;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: justify;
+}
+#imageWpfInterfaceScreen{
+    float: left;
+    box-shadow: 2px 0px 20px -2px #888;
+    border: 4px solid whitesmoke;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 470px;
+    height: 240px;
+    background-size: 100% 100%;
+    background-image: url("ProjectWorkDbInterfaceScreen.Png");
+}
+
+#projectAspNetCore{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+    height: 500px;
+    color: black;
+}
+#h2ForProjectAspNetCore{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#firstParagraphProjectAspNetCore{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    width: 740px;
+}
+#imageASPNetCorePagesInTheBrowser{
+    float: right;
+    box-shadow: 2px 0px 20px -2px #888;
+    border: 4px solid whitesmoke;
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 600px;
+    background-image: url("ProjectCalculationAreaScreenPagesInTheBrowser.png");
+    background-size: 100% 100%;
+}
+#imageProjectCalculationAreaScreenHTMLCodeMainPage{
+    float: left;
+    box-shadow: 2px 0px 20px -2px #888;
+    border: 4px solid whitesmoke;
+    margin-top: 20px;
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 705px;
+    height: 443px;
+    background-image: url("ProjectComputingAreaScreenWorkClassArea.png");
+    background-size: 100% 100%;
+}
+
+#projectBuyingTicetsonline{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+    height: 700px;
+    color: black;
+}
+#h2forPrjectBTO{
+    font-size: 20px;
+    margin-top: 120px;
+}
+#firstParagraphProjectBto{
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 500px;
+}
+#imageProjectBTOScreenStructure{
+    float: right;
+    box-shadow: 2px 0px 20px -2px #888;
+    border: 4px solid whitesmoke;
+    background-image: url("ProjectBuyingTicketsScreenshotGeneralStructure.png");
+    background-size: 100% 100%;
+    width: 600px;
+    height: 651px;
+}
+#imageProjectBTOScreenConnectingToTheDatabase{
+    background-image: url("ProjectBuyingTicketsScreenConnectingToTheDatabase.png");
+    box-shadow: 2px 0px 20px -2px #888;
+    border: 4px solid whitesmoke;
+    margin-top: 20px;
+    float: left;
+    background-image: url("ProjectBuyingTicketsScreenshotGeneralStructure.png");
+    background-size: 100% 100%;
+    width: 600px;
+    height: 450px;
+}
+
+footer{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    height: 300px;
+    background-color: black;
+    color: whitesmoke;
+}
